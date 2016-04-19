@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    tools:context="gmailivanrudyk1996.com.supertimer.MainActivity"
+    android:background="#10eaf8">
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/horizontalScrollView" >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="#2c4b4f"
+            android:layout_alignParentLeft="false"
+            android:id="@+id/linearLayout">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="69dp"
+                android:text="SEC"
+                android:id="@+id/btOpenStopwach"
+                android:background="#0ddfec"
+                android:onClick="onClick"
+                android:textSize="15dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Timer"
+                android:id="@+id/btOpenTimer"
+                android:background="#0ddfec"
+                android:onClick="onClick"
+                android:textSize="15dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Alarm"
+                android:id="@+id/btOpenAlarm"
+                android:background="#0ddfec"
+                android:onClick="onClick"
+                android:textSize="15dp" />
+
+            <Button
+                android:layout_width="175dp"
+                android:layout_height="match_parent"
+                android:text="Sport Timer"
+                android:id="@+id/btOpenSportTimer"
+                android:background="#0ddfec"
+                android:onClick="onClick"
+                android:textSize="15dp" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/frag1"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/horizontalScrollView"></FrameLayout>
+
+</RelativeLayout>
