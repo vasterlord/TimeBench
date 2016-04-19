@@ -7,7 +7,7 @@
 
 
     tools:context="gmailivanrudyk1996.com.supertimer.MainActivity"
-    android:background="#10eaf8">
+    android:background="#2c4b4f">
 
     <HorizontalScrollView
         android:layout_width="wrap_content"
@@ -29,36 +29,40 @@
                 android:layout_height="69dp"
                 android:text="SEC"
                 android:id="@+id/btOpenStopwach"
-                android:background="#0ddfec"
+                android:background="#02767d"
                 android:onClick="onClick"
-                android:textSize="15dp" />
+                android:textSize="20dp"
+                android:textColor="#c9fbd9" />
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="Timer"
                 android:id="@+id/btOpenTimer"
-                android:background="#0ddfec"
+                android:background="#02767d"
                 android:onClick="onClick"
-                android:textSize="15dp" />
+                android:textSize="15dp"
+                android:textColor="#c9fbd9" />
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="Alarm"
                 android:id="@+id/btOpenAlarm"
-                android:background="#0ddfec"
+                android:background="#02767d"
                 android:onClick="onClick"
-                android:textSize="15dp" />
+                android:textSize="15dp"
+                android:textColor="#c9fbd9" />
 
             <Button
                 android:layout_width="175dp"
                 android:layout_height="match_parent"
                 android:text="Sport Timer"
                 android:id="@+id/btOpenSportTimer"
-                android:background="#0ddfec"
+                android:background="#02767d"
                 android:onClick="onClick"
-                android:textSize="15dp" />
+                android:textSize="15dp"
+                android:textColor="#c9fbd9" />
         </LinearLayout>
     </HorizontalScrollView>
 

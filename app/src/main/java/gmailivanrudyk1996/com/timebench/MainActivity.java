@@ -5,7 +5,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Toolbar;
+
+import gmailivanrudyk1996.com.timebench.stopwatch.Stopwatch;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -22,11 +23,21 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        stopwatch = new Stopwatch();
+        fTrans = getFragmentManager().beginTransaction();
+        fTrans.replace(R.id.frag1, stopwatch);
+        fTrans.commit();
+
         bOpenStopwach = (Button) findViewById(R.id.btOpenStopwach);
         bOpenTimer = (Button) findViewById(R.id.btOpenTimer);
         bOpenAlarm = (Button) findViewById(R.id.btOpenAlarm);
         bOpenSportTimer = (Button) findViewById(R.id.btOpenSportTimer);
+
+
+
     }
+
+
 
     public void onClick(View view) {
         stopwatch = new Stopwatch();
