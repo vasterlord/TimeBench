@@ -63,6 +63,7 @@
                 android:onClick="onClick"
                 android:textSize="15dp"
                 android:textColor="#c9fbd9" />
+
         </LinearLayout>
     </HorizontalScrollView>
 
