@@ -39,7 +39,6 @@ public class Timer extends Fragment {
         Timer.timePause = timePause;
     }
 
-
     CounterClass timer;
 
 
